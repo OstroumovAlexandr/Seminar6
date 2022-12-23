@@ -99,3 +99,59 @@ if(X > 0 && Y < 0)
 
 */
 
+
+
+
+// Очередная задача на Семинаре 6
+/*
+Console.WriteLine("Введите номер четверти: ");
+int num = int.Parse(Console.ReadLine()!);
+
+switch (num)
+{
+    case 1: {
+        Console.WriteLine("X > 0, Y > 0");
+        break;
+    }
+    case 2: {
+        Console.WriteLine("X < 0, Y > 0");
+        break;
+    }
+    case 3: {
+        Console.WriteLine("X < 0, Y < 0");
+        break;
+    }
+    case 4: {
+        Console.WriteLine("X > 0, Y < 0");
+        break;
+    }
+    default: {
+        Console.WriteLine("Такой четверти не существует");
+        break;
+    }
+}
+
+*/
+
+
+
+// Нахождене расстояния между двумя точками в 2D простарнстве
+
+Console.WriteLine("Введите координату Х точки А: ");
+int xa = int.Parse(Console.ReadLine()!);
+
+Console.WriteLine("Введите координату Х точки B: ");
+int xb = int.Parse(Console.ReadLine()!);
+
+Console.WriteLine("Введите координату Y точки А: ");
+int ya = int.Parse(Console.ReadLine()!);
+
+Console.WriteLine("Введите координату Y точки B: ");
+int yb = int.Parse(Console.ReadLine()!);
+
+double result = Math.Sqrt(Math.Pow(xb-xa, 2) + Math.Pow(yb-ya, 2));
+
+Console.WriteLine($"Расстояние между точками: {result:f2}"); // {result:f2} после двоеточия стоит конструкция, 
+                                                            // которая определяет количество выводимых знаков после запятой. 
+                                                           // 2 - означает два знака
+
