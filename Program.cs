@@ -71,3 +71,31 @@ break;
 
 
 
+//  Определение четврети плоскости координат в зависимости от введенных координат
+/*
+Console.WriteLine("Введи Х: ");
+int X = int.Parse(Console.ReadLine()!);
+
+Console.WriteLine("Введи Y: ");
+int Y = int.Parse(Console.ReadLine()!);
+
+if(X > 0 && Y > 0)
+{
+    Console.WriteLine("Это первая четверть.");
+}
+
+if(X < 0 && Y > 0)
+{
+    Console.WriteLine("Это вторая четверть.");
+}
+if(X < 0 && Y < 0)
+{
+    Console.WriteLine("Это третья четверть.");
+}
+if(X > 0 && Y < 0)
+{
+    Console.WriteLine("Это четвертая четверть.");
+}
+
+*/
+
