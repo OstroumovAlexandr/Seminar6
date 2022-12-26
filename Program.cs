@@ -136,7 +136,7 @@ switch (num)
 
 
 // Нахождене расстояния между двумя точками в 2D простарнстве
-
+/*
 Console.WriteLine("Введите координату Х точки А: ");
 int xa = int.Parse(Console.ReadLine()!);
 
@@ -154,4 +154,21 @@ double result = Math.Sqrt(Math.Pow(xb-xa, 2) + Math.Pow(yb-ya, 2));
 Console.WriteLine($"Расстояние между точками: {result:f2}"); // {result:f2} после двоеточия стоит конструкция, 
                                                             // которая определяет количество выводимых знаков после запятой. 
                                                            // 2 - означает два знака
+
+*/
+
+
+
+
+// Про новое использование цикла FOR
+/*
+Console.WriteLine("Введите число: ");
+int n = int.Parse(Console.ReadLine()!);
+
+for(int i = 1; i <= n; i++)
+{
+    Console.Write($"{Math.Pow(i,2)} ");
+}
+*/
+
 
